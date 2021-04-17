@@ -1,0 +1,32 @@
+ideas = {
+	political_advisor = {
+	}
+
+	#Military
+	army_chief = {
+	}
+	navy_chief = {
+	}
+	air_chief = {
+	}
+	high_command = {
+		marc_psycho = {
+			allowed = {
+				original_tag = BAV
+			}
+			traits = {naval_lineage}
+			picture = /media/get//hoi4/ideas/people/idea_semyon_timoshenko
+		}
+	}
+	#Manufacturers
+	tank_manufacturer = {
+	}
+	naval_manufacturer = {
+	}
+	aircraft_manufacturer = {
+	}
+	materiel_manufacturer = {
+	}
+	theorist = {
+	}
+}

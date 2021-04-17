@@ -1,0 +1,71 @@
+﻿capital = 52
+set_research_slots = 3
+set_stability = 6
+set_war_support = 8
+#Starting tech
+set_technology = {
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 500
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_technology = {
+	}
+	#set_convoys = 100
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	fascism = 25
+	communism = 25
+	neutrality = 0
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 50
+		fascism = 25
+		communism = 25
+		neutrality = 0
+	}
+}
+
+#Create country leader - Paddywagon King of the Bayerns
+create_country_leader = {
+	name = "Paddywagon King of the Bayerns"
+	picture = "portrait_africa_generic_operative_female_2.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
+
+#Create military leader - Marc "Psycho" Urbanoutfitters
+create_navy_leader = {
+	name = "Marc "Psycho" Urbanoutfitters"
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	traits = { seawolf fleet_protector blockade_runner superior_tactician spotter fly_swatter ironside air_controller silent_hunter torpedo_expert lancer destroyer_leader loading_drill_master hunter_killer cruiser_captain search_pattern_expert lone_wolf concealment_expert mine_sweeper mine_layer smoke_screen_expert big_guns_expert ground_pounder safety_first marksman crisis_magician flight_deck_manager fighter_director dive_bomber torpedo_bomber arctic_water_expert inshore_fighter blue_water_expert green_water_expert old_guard_navy gentlemanly gunnery_expert cuts_corners chief_engineer navy_media_personality bold navy_career_officer battleship_adherent aviation_enthusiast caustic_personality craven naval_lineage }
+	skill = 10
+	attack_skill = 10
+	defense_skill = 10
+	maneuvering_skill = 10
+	coordination_skill = 10
+	id = 1814433093123050
+}
