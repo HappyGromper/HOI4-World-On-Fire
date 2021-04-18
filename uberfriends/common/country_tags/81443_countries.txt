@@ -1,7 +1,0 @@
-PRS = "countries/Rhine.txt"
-DAN = "countries/Rhine.txt"
-BAV = "countries/Rhine.txt"
-BTN = "countries/Rhine.txt"
-HNW = "countries/Rhine.txt"
-HSE = "countries/Rhine.txt"
-RHN = "countries/Rhine.txt"
