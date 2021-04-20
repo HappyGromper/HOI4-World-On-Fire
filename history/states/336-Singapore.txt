@@ -14,8 +14,8 @@ state={
 	}
 
 	history={
-		owner = MNS
-		add_core_of = MNS
+		owner = SIP
+		add_core_of = SIP
 		victory_points = {
 			12299 10
 		}

@@ -3,8 +3,8 @@ state={
 	name="STATE_738"
 
 	history={
-		owner = MNS
-		add_core_of = MNS
+		owner = PPA
+		add_core_of = PPA
 		buildings = {
 			infrastructure = 1
 
