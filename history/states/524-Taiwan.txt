@@ -7,9 +7,9 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = FOR
+		owner = GXI
 		add_core_of = CHI
-		add_core_of = FOR
+		add_core_of = GXI
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
